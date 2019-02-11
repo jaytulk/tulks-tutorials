@@ -91,6 +91,7 @@ Once you are hooked up, you should be able to open a command prompt and get a ve
 1. Open a Command Prompt window, and enter: \`npm install -g create-react-app\`
     * If you were a G and installed Yarn, it would be \`yarn global add create-react-app\`
 
+
 2. Navigate to a folder where you would like create an application. I typically use something like \`D:\\Applications\`. **Note**: Create-React-App will make a folder and install everything inside of that folder, so there is no need to make a new folder specifically for your new project(ie: Making \`D:\\Application\\whatever\` would turn in to \`D:\\Applications\\whatever\\whatever\`, which is no bueno).
 
 3. Enter \`create-react-app project-name\`, where project-name is the name you would like to give your new application. It is better to use kebab case(more on that [here](https://medium.com/@pddivine/string-case-styles-camel-pascal-snake-and-kebab-case-981407998841)), some operating systems do not like variations.
@@ -101,8 +102,10 @@ You should be good to rock on roll out with some radical React!
 
 # Creating an Angular Application
 ![Angular][angularImage]
+
 1. Open a Command Prompt window, and enter: \`npm install -g @angular/cli\`
     * If you were a G and installed Yarn, it would be \`yarn global add @angular/cli\`
+
 
 2. Navigate to a folder where you would like create an application. I typically use something like \`D:\\Applications\`. **Note**: The Angular CLI will make a folder and install everything inside of that folder, so there is no need to make a new folder specifically for your new project(ie: Making \`D:\\Application\\whatever\` would turn in to \`D:\\Applications\\whatever\\whatever\`, which is no bueno).
 
