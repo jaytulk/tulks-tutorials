@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 import {getTutorialPath, getTutorialsPath, getTutorialsRoute} from './routes';
 import NavBar from './components/NavBar';
-import TutorialsIndexScreen from './tutorials/IndexScreen';
+import TutorialsIndexScreen from './components/TutorialsIndexScreen';
 import Tutorial from './components/Tutorial';
 import styled from '@emotion/styled/macro';
 
@@ -27,11 +27,7 @@ class App extends Component {
           <NavBar />
           <div className="content-container">
             <Switch>
-              <Route
-                component={TutorialsIndexScreen}
-                exact
-                path={getTutorialsPath()}
-              />
+              <Route component={TutorialsIndexScreen} exact path={getTutorialsPath()} />
               <Route
                 component={Tutorial}
                 // component={() => <TutorialIndexScreen/>}

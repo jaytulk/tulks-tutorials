@@ -33,7 +33,7 @@
     "ajv": "6.8.1"
   },
   "prettier": {
-    "printWidth": 80,
+    "printWidth": 120,
     "tabWidth": 2,
     "parser": "babel",
     "singleQuote": true,

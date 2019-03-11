@@ -13,8 +13,8 @@ const TutorialRoot = styled.div`
   border-radius: 6px;
   margin: 24px auto;
   padding: 32px;
-  width: 964px;
   overflow-x: hidden;
+  width: 964px;
 
   @media (max-width: 964px) {
     width: 100%;
@@ -30,6 +30,7 @@ const TutorialRoot = styled.div`
     &:hover {
       color: ${lighten(0.3, colors.primaryColor)};
     }
+
     &:active {
       color: ${darken(0.1, colors.primaryColor)};
     }

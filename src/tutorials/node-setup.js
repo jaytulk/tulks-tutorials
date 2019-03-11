@@ -1,10 +1,10 @@
-import nodeInstallImage1 from './node-install-1.png';
-import nodeInstallImage2 from './node-install-2.png';
-import node from './node.png';
-import yarn from './yarn.png';
-import angular from './angular.png';
-import react from './react.png';
-import npm from './npm.png';
+import nodeInstallImage1 from './resources/node-install-1.png';
+import nodeInstallImage2 from './resources/node-install-2.png';
+import node from './resources/node.png';
+import yarn from './resources/yarn.png';
+import angular from './resources/angular.png';
+import react from './resources/react.png';
+import npm from './resources/npm.png';
 
 export const nodeSetupTitle = 'Setting up for JavaScript Development';
 

@@ -11,7 +11,6 @@ const NavBarRoot = styled.div`
   border-bottom: 4px solid #333;
   display: flex;
   height: 50px;
-  padding-left: 25%;
 
   .link-container {
     align-items: center;
