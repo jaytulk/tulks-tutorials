@@ -13,7 +13,7 @@ If I forgot something, feel free to add the code and submit a pull request [here
 Front-end development is interpreted as anything that a user will interact directly with. Seems legit.
 
 ### Setting up
-* [My Setting Up Tutorial](https://tulks-tutorials.now.sh/tutorials/1)
+* [My Setting Up Tutorial](https://tulks-tutorials.netlify.com/tutorials/1)
     * This will get your environment set up and ready to run a React or Angular application.
 
 ### JavaScript and Getting Learnt About Modern Web Development
